@@ -29,7 +29,7 @@ COPY my-app/ .
 # RUN php -r "unlink('composer-setup.php');"
 # RUN mv composer.phar /usr/local/bin/composer
 
-RUN php-ext-install pdo mbstring
+# RUN php-ext-install pdo mbstring
 # RUN composer install
 EXPOSE 8181
 
