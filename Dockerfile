@@ -14,7 +14,7 @@
 
 # php composer-setup.php --2.2
 
-FROM php:8.0
+FROM php:7.3
 
 # Set the working directory in the container
 WORKDIR /app
